@@ -70,3 +70,11 @@ def kocka1():
 kocka1()
 
 
+def disrkiminant():
+    a = float(input("Zadaj hodnotu a:"))
+    b = float(input("Zadaj hodnotu b:"))
+    c = float(input("Zadaj hodnotu c:"))
+    D = b ** 2 - 4 * a * c
+    if D > :
+        print("x1 =", (-b + (D ** 0.5)) / 2 * a)
+        print("x2 =", (-b - (D ** 0.5)) / 2 * a)
